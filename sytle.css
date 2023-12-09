@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 html{
     box-sizing: border-box;
 }
@@ -5,22 +7,77 @@ html{
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 header{
-   background-color: #1f2937; 
-   display: flex;
+   background-color: #0a0a0a; 
    padding: 1em 12em;
 }
 
 nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 nav ul{
     display: flex;
     list-style-type: none;
     gap: 1.5em;
+}
+
+#berserk-logo{
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+a{
+    color:#bd1701;
+}
+
+a:hover{
+    color:#f9faf8
+}
+
+.welcome{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5em 0;
+}
+
+.text{
+    width: 30vw;
+}
+
+.text h1{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.text p{
+    font-size: 18px;
+    color:#e4e7eb;
+}
+
+.welcome img{
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.sign-up{
+    margin: 10px 0;
+    padding: 7px 3px;
+    width: 120px;
+    font-size: 17px;
+    font-weight: bold ;
+    background-color: #bd1701;
+    border: none;
+    border-radius: 8px;
 }
 
