@@ -132,7 +132,6 @@ main h1{
     align-items: center;
     padding: 20vh 25vw;
     background-color: #e5e7eb;
-    
 }
 
 .quote-text{
@@ -150,7 +149,7 @@ main h1{
 }
 
 /* CALL TO ACTION SECTION */
-
+    
 .call-to-action{
     display: flex;
     justify-content: space-between;
@@ -168,12 +167,13 @@ main h1{
 
 .call-to-action p{
     font-size: 18px;
-    align-self: center;
 }
 
 .call-to-action .sign-up{
     border: #0a0a0a solid 3px;
 }
+
+/* FOOTER */
 
 footer{
     background-color: #0a0a0a;
