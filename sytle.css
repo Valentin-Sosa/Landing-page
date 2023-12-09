@@ -37,6 +37,7 @@ nav ul{
 
 a{
     color:#bd1701;
+    text-decoration: none;
 }
 
 a:hover{
@@ -58,7 +59,7 @@ a:hover{
 
 .text h1{
     color: #f9faf8;
-    font-size: 48px;
+    font-size: 45px;
     font-weight: bold;
 }
 
@@ -84,6 +85,11 @@ a:hover{
     border-radius: 8px;
 }
 
+.sign-up:hover{
+    background-color: #e4e7eb;
+    color:#0a0a0a;
+}
+
 /* MAIN SECTION */
 
 main h1{
@@ -105,10 +111,15 @@ main h1{
 
 
 .img-container{
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     border:#0a0a0a solid 5px;
     border-radius: 10px;
+}
+
+.img-container img{
+    width: 250px;
+    height: 250px;
 }
 
 /* QUOTE SECTION*/
@@ -162,4 +173,10 @@ main h1{
 
 .call-to-action .sign-up{
     border: #0a0a0a solid 3px;
+}
+
+footer{
+    background-color: #0a0a0a;
+    color:#e4e7eb;
+    padding: 5vh 41vw;
 }
