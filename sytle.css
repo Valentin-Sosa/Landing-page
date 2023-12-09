@@ -109,6 +109,11 @@ main h1{
     gap: 30px;
 }
 
+.card p{
+    margin: 10px 0;
+    text-align: center;
+    color: #494949
+}
 
 .img-container{
     width: 250px;
