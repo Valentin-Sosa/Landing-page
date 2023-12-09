@@ -15,6 +15,8 @@ header{
    padding: 1em 12em;
 }
 
+/* NAVEGATION BAR*/
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -33,7 +35,6 @@ nav ul{
     border-radius: 10px;
 }
 
-
 a{
     color:#bd1701;
 }
@@ -41,6 +42,8 @@ a{
 a:hover{
     color:#f9faf8
 }
+
+/* WELCOME SECTION*/
 
 .welcome{
     display: flex;
@@ -81,3 +84,54 @@ a:hover{
     border-radius: 8px;
 }
 
+/* MAIN SECTION */
+
+main h1{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #0a0a0a;
+}
+
+.cards-container{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 30px;
+}
+
+
+.img-container{
+    width: 150px;
+    height: 150px;
+    border:#0a0a0a solid 5px;
+    border-radius: 10px;
+}
+
+.quote
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20vh 25vw;
+    background-color: #e5e7eb;
+    
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.autor{
+    margin: 10px;
+    align-self:flex-end;
+    font-weight: bold;
+    font-size: 25px;
+}
